@@ -41,5 +41,7 @@ Once you have created your page, you should [clone this repository](https://docs
 4. Open the repository in Atom and text that your page works. It should be live at something like 127.0.0.1/(name of your folder)/
 5. After its tested and working, push your update to the origin.
 
+Your submission for the assignment will be your completed folder uploaded to the repository, no submission on Canvas. Due Sunday 10/2 @ midnight.
+
 ### Follow-up
 After everyone has uploaded their folders, I will create a home page for all the zines.
