@@ -1,1 +1,23 @@
- 
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #609cd2;
+  background: #fff repeat-y top center;
+}
+
+header {
+  width: 400px;
+  height: 320px;
+  background: url(assets/logo.png) no-repeat top left;
+}
+
+.page-wrapper {
+  width: 396px;
+  position: absolute;
+  left: 50px;
+  margin-left: -198px;
+}
