@@ -12,7 +12,7 @@ body {
 header {
   width: 400px;
   height: 320px;
-  background: url(logo.png) no-repeat top left;
+  background-image: url("logo.png") no-repeat top left;
 }
 
 .page-wrapper {
@@ -48,8 +48,7 @@ section::before{
 @media (min-width: 250px) {
 
 .gallery-container-size{
-    margin: auto;
-;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -61,4 +60,3 @@ section::before{
   align-self: auto;
 }
   }
-}
