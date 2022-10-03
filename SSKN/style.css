@@ -12,7 +12,7 @@ body {
 header {
   width: 400px;
   height: 320px;
-  background-image: url("logo.png") no-repeat top left;
+  background-image: url('logo.png') no-repeat top left;
 }
 
 .page-wrapper {
@@ -22,7 +22,7 @@ header {
     margin-left: auto;
     padding: 0px;
     width: 691px;
-    text-align: left;
+    text-align: center;
     position: relative;
     border-left: 1px solid #381e21;
     border-right: 1px solid #381e21;
@@ -42,7 +42,7 @@ h1, h2, h3 {
 }
 
 section::before{
-  content: url(vertical.png);
+  content: url('vertical.png');
 }
 
 @media (min-width: 250px) {
