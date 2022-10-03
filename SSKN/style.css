@@ -1,4 +1,3 @@
-
 body {
   text-align: center;
   margin: 0;
@@ -9,10 +8,10 @@ body {
   background: #fff repeat-y top center;
 }
 
-header {
+.header {
   width: 90px;
   height: 90px;
-  background-image: url('logo.png') no-repeat top left;
+  background-image: url('assets/logo.png') no-repeat top left;
 }
 
 .page-wrapper {
@@ -41,8 +40,8 @@ h1, h2, h3 {
   text-align: justify;
 }
 
-section::before{
-  content: url('vertical.png');
+body::before{
+  content: url('assets/vertical.png');
 }
 
 
