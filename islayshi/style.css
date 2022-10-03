@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+  margin: 5;
+  padding: 10;
+  border: none;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+  font-size: 17px;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
