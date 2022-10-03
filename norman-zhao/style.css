@@ -1,0 +1,55 @@
+/*start */
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Pacifico&display=swap');
+html{
+    font-family: annie use your telescope, sans-serif;
+}
+body {
+  background-color: black;
+}
+h1{
+  text-align: center;
+  width: 700px;
+  padding: 0px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48pt;
+    color: white;
+}
+h2{
+  text-align: left;
+  width: 700px;
+  padding: 0px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24pt;
+    color: white;
+}
+h3{
+  text-align: left;
+  width: 700px;
+  padding: 0px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12pt;
+    color: white;
+  }
+p{
+  text-align: left;
+  width: 700px;
+  padding: 0px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20pt;
+    color: white;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
