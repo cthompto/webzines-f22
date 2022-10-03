@@ -18,7 +18,12 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-    padding-bottom: 20px;
+}
+
+.author {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1.25rem;
 }
 
 .grid-frame {
