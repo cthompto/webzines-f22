@@ -10,8 +10,8 @@ body {
 }
 
 header {
-  width: 400px;
-  height: 320px;
+  width: 90px;
+  height: 90px;
   background-image: url('logo.png') no-repeat top left;
 }
 
@@ -45,7 +45,6 @@ section::before{
   content: url('vertical.png');
 }
 
-@media (min-width: 250px) {
 
 .gallery-container-size{
   margin: auto;
@@ -58,5 +57,4 @@ section::before{
   border: 2px dashed pink;
   background-color: #381e21;
   align-self: auto;
-}
   }
