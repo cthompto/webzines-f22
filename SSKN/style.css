@@ -16,10 +16,17 @@ header {
 }
 
 .page-wrapper {
-  width: 396px;
-  position: absolute;
-  left: 50px;
-  margin-left: -198px;
+  margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 0px;
+    width: 691px;
+    text-align: left;
+    position: relative;
+    border-left: 1px solid #c3906b;
+    border-right: 1px solid #c3906b;
+    background-color: #d8798d;
 }
 
 h1, h2, h3 {
