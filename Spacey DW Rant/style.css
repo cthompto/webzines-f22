@@ -1,0 +1,56 @@
+
+
+
+body {
+  background-color: #003F8F;
+}
+
+.titlecards1 {
+  padding-left: 550px;
+}
+
+.titlecards2 {
+  padding-left: 500px;
+}
+
+
+h1{
+  color: #EBDBD5;
+  font-family: "Futura PT Extra Bold",  sans-serif;
+  text-align: center;
+}
+
+h2{
+  color: #FFAA27;
+  font-family: "Futura PT Book", sans-serif;
+  padding-left: 200px;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  color: #EBDBD5;
+  text-align: left;
+  padding-left: 100px;
+}
+
+ .p_img {
+   padding-left: 300px;
+ }
+
+footer {
+  background-color: #0C173B;
+}
+
+h5 {
+  font-family: "Courier New", monospace;
+  color: #4FD897;
+  text-align: center;
+}
+
+
+a:link{
+  color: #FFAA27;
+}
+a:visited{
+  color: #704F18;
+}
