@@ -21,3 +21,15 @@ header {
   left: 50px;
   margin-left: -198px;
 }
+
+h1, h2, h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.supporting, .who {
+  padding: 0 30px;
+  text-align: justify;
+}
