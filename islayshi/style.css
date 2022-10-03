@@ -5,10 +5,12 @@
   padding: 10;
   border: none;
   font-family: 'Noto Sans Mono', monospace;
+  color:#999999;
 }
 
 body {
   font-size: 17px;
+  background-color: black;
 }
 
 img {
@@ -21,4 +23,12 @@ img {
 .content {
   max-width: 500px;
   margin: auto;
+}
+
+footer {
+  background:
+}
+
+h1 {
+  color: white;
 }
