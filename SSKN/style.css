@@ -45,13 +45,13 @@ body::before{
 }
 
 
-.gallery-container-size{
-  margin: auto;
+.flex-container {
+  margin: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-content: center;
-  align-items: center;
+  list-style: none;
   padding: 0px;
   border: 2px dashed pink;
   background-color: #381e21;
