@@ -1,0 +1,38 @@
+@font-face {
+  font-family: ABeeZee;
+  src: url(ABeeZee-Regular.ttf);
+}
+html {
+  background-color: #130505;
+  font-family: 'ABeeZee', sans-serif;
+  color: #ECE4B7;
+}
+
+h1 {
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+h2 {
+  font-size: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+p {
+  font-size: 18px;
+  line-height: normal;
+  margin-right: 10%;
+  margin-left: 10%;
+  line-height: 1.4;
+}
+
+img {
+  display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+}
