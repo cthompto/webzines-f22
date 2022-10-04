@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Grindstone';
+  src: url(theme/Grindstone_PersonalUseOnly.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GabellaCollege';
+  src: url(theme/GabellaCollege.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ep';
+  src: url(theme/ep-stellari-display.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Made';
+  src: url(theme/MADEMellowPERSONALUSE-Black.ttf) format('otf');
+}
+
+@font-face {
+  font-family: 'Roseritta';
+  src: url(theme/Roseritta.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-transform: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: black;
+}
+
+h1{
+  color: Black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family:'Grindstone', sans-serif;
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: white;
+  margin: 0 auto;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  z-index: 2;
+}
+
+.inner_header{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  /*background-color: Black;*/
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1{
+  color: DarkViolet;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family:'Grindstone', sans-serif;
+  font-size: 60px;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation li{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation li a{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: black;
+  font-family: 'GabellaCollege';
+  font-size: 30px;
+}
+
+.navigation li:last-child{
+  padding-right: 3;
+}
+
+.name{
+  padding: 50px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  color: white;
+}
+
+.name p{
+  display: table;
+  font-family: 'ep', sans-serif;
+}
+
+.title{
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roseritta', sans-serif;
+}
+
+.imgH{
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.imgH img{
+  width: 55vw;
+  height: 30vw;
+}
+
+.text1 {
+  width: 40vw;
+  color: white;
+  font-family: 'ep', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.imgB {
+  padding: 30px;
+  margin: auto;
+  display: table;
+  justify-content: center;
+}
+
+.imgB img{
+  padding: 2px;
+  width: 25vw;
+  height: 30vw;
+}
+
+.imgBB {
+  padding: 30px;
+  margin: auto;
+  display: table;
+  justify-content: center;
+}
+
+.imgBB img{
+  padding: 5px;
+  width: 25vw;
+  height: 30vw;
+}
+
+footer{
+  height: 20vw;
+  display:flex;
+}
+
+footer p{
+  margin-bottom: auto;
+  background: white;
+  margin: auto;
+  display: table;
+  justify-content: center;
+  font-family: 'ep', sans-serif;
+  font-size: 11px;
+}

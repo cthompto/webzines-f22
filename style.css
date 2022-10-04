@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+  font-family: 'Nabla', cursive;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+a {
+  font-size: 25px;
+  transition: font-size 0.2s;
+}
+
+a:hover {
+  font-size: 40px;
+}
+
+footer {
+  padding-top: 50px;
+  font-family: monospace;
+  color: gold;
+}
