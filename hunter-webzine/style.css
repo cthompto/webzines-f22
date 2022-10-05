@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+*{
+    text-decoration: none;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Audiowide", cursive;
+    background-color: #1f1f1f;
+    text-align: center;
+    color: #B0BFBC;
+    ;
+  }
+  .title{
+    padding-bottom: 2rem;
+    color: #B80C09;
+  }
+
+  .mainText{
+    padding-bottom: 5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .mainGrid{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 2rem 2rem 3rem;
+    display: Grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    align-items: center;
+    grid-gap: 10px;
+  }
+  
+  .h-long{
+    grid-column: span 2;
+  }
+
+  .mainGrid div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  footer{
+    margin: 6rem 0 1rem 0;
+  }
+  
+  footer p {
+    color: #B0BFBC;
+    letter-spacing: 0.05em;
+    color: #B0BFBC;
+  }
+  
+  footer p:hover, footer p:focus {
+    color: #B80C09;
+
+  }  
