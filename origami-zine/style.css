@@ -18,7 +18,12 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-    padding-bottom: 20px;
+}
+
+.author {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1.25rem;
 }
 
 .grid-frame {
@@ -58,23 +63,27 @@ img {
 .pop-up-1 {
     rotate: 10deg;
     transition: all 0.3s ease;
+    filter: grayscale(1);
 }
 
 .pop-up-1:hover {
     rotate: 0deg;
     scale: 1.1;
     margin-top: -100px;
+    filter: grayscale(0);
 }
 
 .pop-up-2 {
     rotate: -10deg;
     transition: all 0.3s ease;
+    filter: grayscale(1);
 }
 
 .pop-up-2:hover {
     rotate: 0deg;
     scale: 1.1;
     margin-top: -100px;
+    filter: grayscale(0);
 }
 
 .frame-1 {
@@ -125,4 +134,9 @@ img {
     grid-row: 4 / 5;
     align-self: center;
     z-index: 4;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
 }
